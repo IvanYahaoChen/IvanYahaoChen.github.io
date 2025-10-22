@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome
+title: 
 ---
 
 Hey, I'm **Ivan** — An aspiring Mechanical Engineer, a curious person, and a navy veteran.
