@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<article class="post">
+  <h2>{{ page.title }}</h2>
+  {% if page.hero %}<img class="hero" src="{{ page.hero | relative_url }}" alt="">{% endif %}
+  {% if page.tags %}<p><strong>Tags:</strong> {{ page.tags | join: ", " }}</p>{% endif %}
+  {{ content }}
+</article>
