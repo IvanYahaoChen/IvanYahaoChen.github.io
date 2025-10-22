@@ -3,9 +3,9 @@ layout: home
 title: Welcome
 ---
 
-Hi, I'm **Ivan** — MS Mechanical Engineering (Robotics & Controls).  
-This portfolio highlights selected **projects**, **coursework**, and **experience**.
+Hey, I'm **Ivan** — An aspiring Mechanical Engineer, a curious person, and a navy veteran
+Welcome, to my digital haven
 
-- 👉 See **[Projects](/projects/)**  
-- 📚 **[Coursework](/courseworks/)**  
-- 💼 **[Experience](/experience/)**  
+👉 **[Projects](/projects/)**  
+📚 **[Coursework](/courseworks/)**  
+💼 **[Experience](/experience/)**  
