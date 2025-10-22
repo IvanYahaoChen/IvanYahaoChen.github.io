@@ -1,0 +1,38 @@
+title: Your Name
+description: Robotics / Controls Engineer Portfolio
+url: "https://YOUR-USERNAME.github.io"
+baseurl: ""
+
+theme: minima
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+  courseworks:
+    output: true
+    permalink: /courseworks/:title/
+  experience:
+    output: true
+    permalink: /experience/:title/
+
+defaults:
+  - scope: { path: "", type: "projects" }
+    values: { layout: project }
+  - scope: { path: "", type: "courseworks" }
+    values: { layout: coursework }
+  - scope: { path: "", type: "experience" }
+    values: { layout: experience }
+
+markdown: kramdown
+permalink: pretty
+
+nav:
+  - name: Home
+    url: /
+  - name: Projects
+    url: /projects/
+  - name: Coursework
+    url: /courseworks/
+  - name: Experience
+    url: /experience/
