@@ -1,8 +1,9 @@
 ---
 title: Quadrupedal Robot
-summary: 
+summary: Full life cycle of building a quadrupedal robot capable of autonomous locomotion
 tags: [Robotics, Controls, 3D Printing, CAD, Design]
 hero: /assets/img/Quadruped_cover_pic.jpg
+layout: project
 thumbnail: /assets/img/Quadruped_cover_pic.jpg
 date: 2025-05-12
 ---
