@@ -1,13 +1,139 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yahao (Ivan) Chen – Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name – Portfolio</title>
+  <style>
+    /* --- BASIC STYLES --- */
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      color: #222;
+      background: #fff;
+    }
+    header {
+      background: #f8f8f8;
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      color: #666;
+      font-size: 1.1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0077cc;
+      margin: 0 10px;
+      font-weight: 500;
+    }
+    section {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    /* --- PROJECTS --- */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 16px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .project h3 {
+      margin-top: 0;
+    }
+    .project a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    /* --- FOOTER --- */
+    footer {
+      text-align: center;
+      color: #666;
+      border-top: 1px solid #eee;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+
+    /* --- RESPONSIVE --- */
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.7rem; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, I’m Ivan!</h1>
-  <p>This is my portfolio site hosted on GitHub Pages.</p>
+  <header>
+    <h1>Your Name</h1>
+    <p>Mechanical Engineer · Robotics & Controls · US Navy Veteran</p>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf">Résumé</a>
+    </nav>
+  </header>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Robot Arm Controller</h3>
+        <p>Designed and implemented a model-based controller for a 6-DoF robotic arm, achieving 15% improvement in tracking accuracy.</p>
+        <p><a href="https://github.com/yourusername/robot-arm">View on GitHub</a></p>
+      </div>
+      <div class="project">
+        <h3>Computer Vision Inspection</h3>
+        <p>Built a defect detection system using OpenCV + CNN running on a Raspberry Pi in real time.</p>
+        <p><a href="https://github.com/yourusername/vision-pi">View on GitHub</a></p>
+      </div>
+      <div class="project">
+        <h3>Autonomous Rover Simulation</h3>
+        <p>Developed path-planning and obstacle-avoidance algorithms in Python; tested in Gazebo.</p>
+        <p><a href="https://github.com/yourusername/rover-sim">View on GitHub</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I recently earned my MS in Mechanical Engineering from Columbia University, focusing on Robotics and Controls. 
+      Before that, I served four years in the U.S. Navy working on mechanical systems maintenance. 
+      I enjoy building reliable, efficient engineering solutions that bridge software and hardware.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      📧 <a href="mailto:you@example.com">you@example.com</a><br>
+      🔗 <a href="https://www.linkedin.com/in/yourhandle">LinkedIn</a><br>
+      💻 <a href="https://github.com/yourusername">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Your Name
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-
