@@ -13,4 +13,4 @@ date: 2025-05-12
 
 **Demo video:**
 - [Click here](https://drive.google.com/file/d/1w4jgkEzDZSf1zbCAGE9S3ZvtUkTv3Atc/view?usp=sharing)
-<video controls src="/assets/img/robot-arm-demo.mp4" style="max-width:100%"></video>
+
